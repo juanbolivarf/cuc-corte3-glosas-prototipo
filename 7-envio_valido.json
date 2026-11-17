@@ -1,0 +1,33 @@
+{
+  "status": 200,
+  "respuesta": {
+    "ok": true,
+    "envio_id": 17,
+    "equipo": "JuanBolivar-24456",
+    "metrica": {
+      "historias_evaluadas": 300,
+      "precision_revisar": 0.1099,
+      "recall_revisar": 1.0,
+      "f1_revisar": 0.198,
+      "matriz_confusion": {
+        "verdaderos_positivos": 30,
+        "falsos_positivos": 243,
+        "falsos_negativos": 0,
+        "verdaderos_negativos": 27
+      },
+      "acierto_causa": 0.3,
+      "glosas_evaluadas": 30,
+      "tasa_revision_humana": 0.91,
+      "tokens_entrada": 627596,
+      "tokens_salida": 30771,
+      "tokens_totales": 658367,
+      "modelos": []
+    },
+    "codigo_verificacion": "CLX-17-5D22-8821",
+    "envios_hoy": 1,
+    "limite_diario": 20,
+    "recibido_en": "2026-11-16T15:30:32.338871+00:00",
+    "nota": "La API no revela qué historias fallaron; revisa tus métricas y vuelve a intentar."
+  },
+  "causa_rev": "falta_soporte"
+}
